@@ -55,3 +55,26 @@ body{
     padding-right: 1rem;
 }
 
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    padding:0.5rem 1rem;
+    color:black;
+    border-bottom-left-radius: 1rem;
+
+}
+.nav-brand{
+    font-weight: 1.1rem;
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-links{
+    text-decoration: none;
+    color:white;
+}
+.nav-link-active
+{
+    font-weight: bold;
+}
