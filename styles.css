@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:#9333ea;
+    --off-white:#cbd5e1;
 }
 
 hr{
@@ -87,9 +88,23 @@ body{
 }
 .header-image{
     width: 350px;
-    display: block;
+    
 }
 .header-heading{
 
     color:var(--primary-color)
 }
+
+/* section */
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+.ow{
+ background-color: var(--off-white);
+ border-radius: 1rem 1rem;
+}
+
