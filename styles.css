@@ -101,10 +101,13 @@ body{
 /* section */
 .section{
     padding: 2rem;
+    margin: auto;
+    text-align: center;
 }
 
 .section h1{
     text-align: center;
+    margin: auto;
 }
 .ow{
  background-color: var(--off-white);
