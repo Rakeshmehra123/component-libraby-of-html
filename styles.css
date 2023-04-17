@@ -78,3 +78,18 @@ body{
 {
     font-weight: bold;
 }
+
+/* header */
+.header{
+    padding:2rem;
+    text-align: center;
+
+}
+.header-image{
+    width: 350px;
+    display: block;
+}
+.header-heading{
+
+    color:var(--primary-color)
+}
