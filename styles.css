@@ -12,7 +12,7 @@ hr{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin
+    margin:0px;
 }
 
 /**containers**/
@@ -63,6 +63,11 @@ body{
     padding-right: 1rem;
 }
 
+.ordered-list{
+    margin: auto;
+    text-align: center;
+}
+
 /* navigation */
 
 .navigation{
@@ -73,7 +78,9 @@ body{
 
 }
 .nav-brand{
-    font-weight: 1.1rem;
+    font-size: larger;
+    color:white;
+
 }
 .nav-pills{
     text-align: right;
@@ -93,23 +100,27 @@ body{
     max-width: 350px;
     margin: auto;
     display: block; 
+    padding: 2rem 1rem;
 }
 .header-heading{
     color:var(--dark-gray);
     text-align: center;
+    white-space: nowrap;
 }
+
 
 /* section */
 .section{
     padding: 2rem;
-    margin: auto;
-    text-align: center;
+    margin-left: auto; 
+    text-align:center;
+}
+.section-font{
+    font-weight: 5rem;
+    
 }
 
-.section h1{
-    text-align: center;
-    margin: auto;
-}
+
 .ow{
  background-color: var(--off-white);
  border-radius: 1rem 1rem;
@@ -120,14 +131,22 @@ body{
 
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     border-radius: 0rem 1rem;
     color: white;
-    text-align: center;
+     text-align: center;
+    
+} 
+.footer-heading{
+    font-size: 1.3rem;
 }
-
 .footer-link{
     text-decoration: none;
     margin: auto;
     color:white;
+    font-size: 1.2rem;
 }
+
+
+
+
